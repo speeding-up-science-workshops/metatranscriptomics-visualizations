@@ -4,7 +4,7 @@ library("ggplot2")
 
 count_tab <- read.table("example_data/sample_raw_counts.tsv", sep="\t", header=T, row.names=1)
 
-sample_info_tab <- data.frame(row.names = names(count_tab), "treatment"= c(rep("Low", 2), rep("High", 2)), "color"= c(rep("Red", 2), rep("Blue", 2)))
+sample_info_tab <- read.table("example_data/sample_info_tab.tsv", sep="\t", header=T, row.names=1)
 
 count_phy <- otu_table(count_tab, taxa_are_rows=T)
 sample_info_phy <- sample_data(sample_info_tab)
