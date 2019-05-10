@@ -1,9 +1,9 @@
-install.packages("vegan")
-install.packages("tidyr")
-install.packages("viridis")
-install.packages("reshape")
+pkgs = c("vegan", "tidyr", "viridis", "reshape", "devtools")
+ncores = parallel::detectCores()
 
-install.packages("devtools")
+install.packages(pkgs, Ncpus = ncores)
+
+
 devtools::install_github("benjjneb/dada2")
 devtools::install_github("benjjneb/decontam")
 devtools::install_version("mvtnorm", version = "1.0-8", repos = "http://cran.us.r-project.org")
