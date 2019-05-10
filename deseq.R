@@ -43,7 +43,6 @@ sigtab_res_deseq <- deseq_res_with_KOs[which(deseq_res_with_KOs$padj < 0.01), ]
 head(sigtab_res_deseq) 
 
 # and now let's sort that table by the baseMean column
-sigtab_deseq_altered_vs_glassy_with_tax[order(sigtab_deseq_altered_vs_glassy_with_tax$baseMean, decreasing=T), ]
 sigtab_res_deseq <- sigtab_res_deseq[order(sigtab_res_deseq$baseMean, decreasing=T), ]
 
 out_tab <- data.frame("CDS_ID"=row.names(sigtab_res_deseq), sigtab_res_deseq, row.names = NULL)
