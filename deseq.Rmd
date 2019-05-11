@@ -2,7 +2,7 @@
 title: "DESeq2"
 author: "Michael D. Lee and Shengwei Hou"
 date: "5/10/2019"
-output: rmarkdown::github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}

@@ -2,7 +2,7 @@
 title: "HClust and Ordination"
 author: "Michael D. Lee"
 date: "5/10/2019"
-output: rmarkdown::github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
