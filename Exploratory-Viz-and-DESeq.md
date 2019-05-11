@@ -14,8 +14,8 @@ Shengwei Hou
 [https://github.com/AstrobioMike/speeding-up-science-binder](https://github.com/AstrobioMike/speeding-up-science-binder)
 
 ## HTML version
-[Exploratory visualizations](https://github.com/AstrobioMike/speeding-up-science-binder/hclust-ord-plot.html)
-[DESeq2](https://github.com/AstrobioMike/speeding-up-science-binder/deseq.html)
+[Exploratory visualizations](https://github.com/AstrobioMike/speeding-up-science-binder/hclust-ord-plot.html)  
+[DESeq2](https://github.com/AstrobioMike/speeding-up-science-binder/deseq.html)  
 
 ## Thumbnail image
-<img align="right" width="400" src="https://github.com/AstrobioMike/AstrobioMike.github.io/blob/master/images/deseq2-MA-thumbnail.png">
+<img width="400" src="https://github.com/AstrobioMike/AstrobioMike.github.io/blob/master/images/deseq2-MA-thumbnail.png">
