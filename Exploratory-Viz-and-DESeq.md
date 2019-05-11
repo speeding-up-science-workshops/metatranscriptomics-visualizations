@@ -8,7 +8,7 @@ Michael D. Lee
 Shengwei Hou
 
 ## Binder
-[https://mybinder.org/v2/gh/AstrobioMike/speeding-up-science-binder/master?urlpath=rstudio](https://mybinder.org/v2/gh/AstrobioMike/speeding-up-science-binder/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/speeding-up-science-binder/master?urlpath=rstudio)
 
 ## Github repo
 [https://github.com/AstrobioMike/speeding-up-science-binder](https://github.com/AstrobioMike/speeding-up-science-binder)
