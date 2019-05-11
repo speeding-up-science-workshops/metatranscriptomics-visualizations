@@ -1,4 +1,4 @@
-pkgs = c("knitr", "rmarkdown", "ggplot2", "ggpubr", "reshape2","cowplot","superheat","plyr","dplyr", "vegan", "reshape", "devtools")
+pkgs = c("knitr", "rmarkdown", "ggplot2", "ggpubr", "reshape2","cowplot","superheat","plyr","dplyr", "vegan", "reshape", "devtools", "pheatmap")
 ncores = parallel::detectCores()
 
 install.packages(pkgs, Ncpus = ncores)
@@ -16,3 +16,4 @@ biocLite("phyloseq")
 biocLite("DESeq2")
 biocLite("ShortRead")
 biocLite("dendextend")
+biocLite("apeglm")
