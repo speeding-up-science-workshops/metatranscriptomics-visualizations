@@ -86,10 +86,6 @@ plotMA(deseq, ylim=c(min(high_vs_low_contrast$log2FoldChange),max(high_vs_low_co
 plotMA(high_vs_low_shr, ylim=c(min(high_vs_low_shr$log2FoldChange),max(high_vs_low_shr$log2FoldChange)), alpha=0.01, main="With log-fold-change shrinkage")
 ```
 
-```{r, include=FALSE}
-dev.off()
-```
-
 ```{r}
   # getting variance stabilized transformed table
 deseq_vst <- varianceStabilizingTransformation(deseq)
